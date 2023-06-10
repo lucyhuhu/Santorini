@@ -1,0 +1,85 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(5, 19.7vw);
+  background-color: #9ebbc3;
+  padding: 10px;
+}
+
+.cell {
+  background-color: #d4e5ef;
+  border: 1px solid rgba(12, 7, 87, 0.8);
+  padding: 20px;
+  height: 10vmin;
+  font-size: 30px;
+  text-align: center;
+}
+
+.instructions {
+  color:rgb(21, 139, 129);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  font-family: fantasy;
+  border: 2px dashed #333;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#bottombar {
+  height: 5vh;
+}
+
+/* https://getcssscan.com/css-buttons-examples */
+#bottombar
+.button {
+  width: 200px;
+  margin-left: 600px;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hasPlayer1Worker { background-color: #d4d5d0;}
+.hasPlayer2Worker { background-color: #b2c3b3;}
